@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	'dbdriver' => 'mysqli',
+	'dsn'	=> 'mysql:host=192.168.1.39; dbname=matrix_db; charset=utf8;',
+	'hostname' => '192.168.1.39',
+	'username' => 'matrixp_usrmpi',
+	'password' => 'wer123',
+	'database' => 'matrix_db',
+	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
