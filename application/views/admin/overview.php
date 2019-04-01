@@ -105,7 +105,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <h6 class="dropdown-header">Login Screens:</h6>
-            <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/admin/Overview/login">Login</a>
+            <?php echo anchor("admin/Overview/login", "Login", "class='dropdown-item'"); ?>
             <a class="dropdown-item" href="register.html">Register</a>
             <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
             <div class="dropdown-divider"></div>
